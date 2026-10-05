@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>手账作品集</title></head><body>
+<main id="app">
+  <div id="viewport" aria-label="可交互的三维手账"></div>
+  <div id="error" hidden role="alert"></div>
+  <aside class="view-controls" aria-label="视图控制">
+    <button id="reset" aria-label="恢复视角" data-tip="恢复视角"><i data-lucide="rotate-ccw"></i></button>
+    <button id="zoom-in" aria-label="放大" data-tip="放大"><i data-lucide="plus"></i></button>
+    <button id="zoom-out" aria-label="缩小" data-tip="缩小"><i data-lucide="minus"></i></button>
+    <button id="rotate" aria-label="自动旋转" data-tip="自动旋转" aria-pressed="false"><i data-lucide="orbit"></i></button>
+  </aside>
+</main><script type="module" src="./src/main.ts"></script></body></html>
